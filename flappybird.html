@@ -292,7 +292,7 @@ function hitPipe(){
 	playSound(hitsound,"https://cdn.jsdelivr.net/gh/ctz45562/cdn@1.6.6/flappybird/sounds/hit.mp3");
 	playSound(deadsound,"https://cdn.jsdelivr.net/gh/ctz45562/cdn@1.6.6/flappybird/sounds/die.mp3");
 	updateScore();
-	gamestate=2;	//游戏结束
+	gamestate=2;
 }
 function updateScore(){
 	if(score>highscore)
@@ -369,8 +369,8 @@ Your browser doesn't support the HTML5 element audio.
 <audio id="swooshingsound" playcount="1" autoplay="true" src="">
 Your browser doesn't support the HTML5 element audio.
 </audio>
-<canvas id="canvas" width="384" height="512" style="margin-top: 8px;">
+<center><canvas id="canvas" width="384" height="512" style="margin-top: 8px;">
 Your browser doesn't support the HTML5 element canvas.
-</canvas>
+</canvas></center>
 </body>
 </html>
